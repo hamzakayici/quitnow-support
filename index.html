@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuitNow - Destek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>QuitNow</h1>
+            <p>Sigara Bırakma Uygulaması - Destek Merkezi</p>
+        </div>
+
+        <div class="section">
+            <h2>📧 Bize Ulaşın</h2>
+            <p>QuitNow uygulaması ile ilgili herhangi bir sorun yaşıyorsanız veya öneriniz varsa, lütfen aşağıdaki formu kullanarak bizimle iletişime geçin.</p>
+            
+            <form class="contact-form" action="https://formspree.io/f/xayzqkqw" method="POST">
+                <div class="form-group">
+                    <label for="name">Ad Soyad *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-posta Adresi *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Konu *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Konu seçiniz</option>
+                        <option value="teknik-sorun">Teknik Sorun</option>
+                        <option value="oneri">Öneri</option>
+                        <option value="hesap-sorunu">Hesap Sorunu</option>
+                        <option value="bildirim-sorunu">Bildirim Sorunu</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mesajınız *</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Lütfen sorununuzu veya önerinizi detaylı bir şekilde açıklayın..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Mesaj Gönder</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>�� Uygulama Bilgileri</h2>
+            <div class="app-info">
+                <p><strong>Uygulama Adı:</strong> QuitNow - Sigara Bırakma</p>
+                <p><strong>Versiyon:</strong> 1.0.2</p>
+                <p><strong>Platform:</strong> iOS & Android</p>
+                <p><strong>Geliştirici:</strong> Hamza Kayıcı</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>❓ Sık Sorulan Sorular</h2>
+            <div class="faq-item">
+                <h3>Uygulama nasıl çalışır?</h3>
+                <p>QuitNow, Allen Carr'ın "Easy Way" metodolojisini kullanarak sigara bırakma sürecinizde size destek olur. İlerleme takibi, motivasyon mesajları ve sağlık hesaplamaları sunar.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Hesabımı nasıl silebilirim?</h3>
+                <p>Ayarlar > Hesap Yönetimi > Hesabı Sil seçeneğini kullanarak hesabınızı kalıcı olarak silebilirsiniz.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Bildirimleri nasıl kapatabilirim?</h3>
+                <p>Ayarlar > Bildirim Ayarları bölümünden bildirim tercihlerinizi değiştirebilirsiniz.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📞 Alternatif İletişim</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📧 E-posta</h3>
+                    <p>support@quitnow.app</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🌐 Website</h3>
+                    <p>quitnow.app</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 QuitNow. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</body>
+</html>
